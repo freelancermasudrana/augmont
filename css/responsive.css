@@ -1,0 +1,14 @@
+@media(max-width:798px){
+    .wrapper{
+     grid-template-columns: repeat(3, 1fr);
+     grid-gap: 70px 0px;
+    }
+}
+@media(max-width:767px){
+    .footerRight-float{
+     float: none !important;
+    }
+    .nav .nav-item{
+        border-bottom: 1px solid white;
+    }
+}
