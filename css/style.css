@@ -1,8 +1,22 @@
 .menu-bg{
     background-color: #013443;
 }
-.navbar-nav .nav-item .nav-link {
+.navbar-nav .nav-item .nav-link{
+    color: white !important;
+    font-size: 14.3px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
     color:white;
+}
+.navbar-nav .dropdown-menu {
+    background-color: #D99A29;
+}
+.navbar-nav .dropdown-menu li .dropdown-item:hover{
+    background-color: #D99A29 !important;
+    border-bottom: 1px solid white;
+}
+.navbar-nav .dropdown-menu .dropdown-item{
+    color: white;
 }
 a.navbar-brand img {
     width: 200px;
@@ -139,8 +153,22 @@ nav::after{
     width: 100%;
     height: auto;
 }
-/* ============END OF MAIN PART CSS================= */
-
+/* ============END OF MAIN PART of index part CSS================= */
+/* ============START PARTNER HTML PART CSS================= */
+.svg-image img {
+    width: 52px;
+}
+.cl-svg img {
+    height: 50px;
+    padding-bottom: 7px;
+    width: 50px;
+}
+.carousel-indicators [data-bs-target] {
+    background-color: black !important;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
 .social-icon i {
     padding: 14px;
     font-size: 35px;
@@ -153,4 +181,7 @@ footer img {
 footer,i,.nav .nav-item .nav-link{
     color:white;
     padding-left: 0px;
+}
+.container-fluid.menu-bg h2 {
+    font-size: 19px;
 }
